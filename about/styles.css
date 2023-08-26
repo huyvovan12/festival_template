@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'American Captain';
+    src: url('./font/american-captain-font/AmericanCaptain-MdEY.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FTY SKRADJHUWN NCV 1';
+    src: url('./font/fty-font/FtySkradjhuwnNcv1-6dmo.ttf') format('truetype');
+}
+
+/* layout */
+
+body { 
+    background-color: black;
+    font-family: American Captain;
+    color: white;
+    padding: 75px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+#content {
+    width: 100%;
+}
+
+.header__logo {
+    width: 110px;
+    height: 96px;
+}
+
+.header__title {
+     display: flex; 
+     flex-direction: column;   
+}
+
+.header__title--above {
+  font-size: 42px;
+}
+
+.header__title--under {
+    font-size: 30px;
+    color: #808080;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.menu nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.menu nav li a:-webkit-any-link {
+    text-decoration: none;
+    color: white;
+}
+
+.logos {
+    background-color: #FFFEAD;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% + 110px);
+}
+
+.logos .logo1 {
+    width: 201px;
+    height: 69px;
+}
+
+.logos .logo3 {
+    width: 148px;
+    height: 82px;
+}
+
+.logos .logo1 {
+    width: 85px;
+    height: 79px;
+}
+
+.logos .logo1 {
+    width: 148px;
+    height: 93px;
+}
+
+.footer {
+    background : #7E1616;
+    height: 250px;
+    padding-top: 10px;
+    display: flex;
+    width: calc(100% + 110px);
+    justify-content: space-between;
+}
+
+.footer .footer__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer .footer__left .menu {
+    width: 100%;
+    margin-left: unset;
+}
+
+.footer .footer__left .copy-right {
+    margin: 0 0 20px 40px;
+}
+
+.footer .footer__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+   
+}
+
+.footer .footer__right .footer__icon {
+    background-color: #C0C1C1;
+    padding: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer .footer__right .footer__icon .fb {
+    width: 12px;
+    height: 20px;
+}
+
+.footer .footer__right .footer__icon .ig {
+    width: 22px;
+    height: 22px;
+}
+
+.footer .footer__right .footer__icon .yt {
+    width: 27px;
+    height: 18px;
+}
+
+/* about */

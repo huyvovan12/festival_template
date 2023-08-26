@@ -14,15 +14,14 @@ body {
     background-color: black;
     font-family: American Captain;
     color: white;
-    padding: 20px 75px;
+    margin: 0;
 }
 
 .header {
     display: flex;
     align-items: center;
     gap: 6px;
-    width: 100%;
-    padding-left: 20px;
+    width: 98%;
 }
 
 #content {
@@ -69,7 +68,7 @@ body {
     gap: 25px;
     justify-content: center;
     align-items: center;
-    width: calc(100% + 110px);
+    width: 100%;
 }
 
 .logos .logo1 {
@@ -97,7 +96,7 @@ body {
     height: 250px;
     padding-top: 10px;
     display: flex;
-    width: calc(100% + 110px);
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -157,17 +156,14 @@ body {
 .home__container {
     margin-top: 40px;
     width: 100%;
+
 }
 
 .home__header {
     height: 500px;
     width: 100%;
-}
-
-
-.home__header {
     position: relative;
-    
+    margin-left: 5%;
 }
 
 .home__bg-top {
@@ -180,11 +176,13 @@ body {
     top: -52px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
     .home__header {
-        margin-left: 10%;
+        margin-left: 15%;
     }
   }
+
+
 
 .home__header .screen {
     display: none;
@@ -381,7 +379,7 @@ body {
 }
 
 .home__film_list {
-    width: (100% + 110px);
+    width: 100%;
     margin-top: 80px;
     display: flex;
     justify-content: space-evenly;
@@ -464,18 +462,16 @@ body {
 /* table */
 
 .home__film_table {
-   width: 100%;
+   width: 93%;
    background-color: white;
-   margin: 50px auto;
+   margin: 50px 0px;
    position: relative;
    z-index: 3;
    align-items: center;
-   padding: 50px 45px 250px 65px;
+   padding: 50px 50px 250px 50px;
    font-family: 'FTY SKRADJHUWN NCV 1';
-   overflow: hidden;
    height: 150px;
    transition: height 0.5s;
-   overflow: hidden;
    margin-top: 100px;
 }
 
@@ -488,7 +484,7 @@ body {
 .table__list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px; /* Điều chỉnh khoảng cách ở đây */
+    grid-gap: 10px; 
     z-index: 2;
 }
 

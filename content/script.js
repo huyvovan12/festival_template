@@ -13,7 +13,7 @@ const items = [
 
 let visibleItemCount = 3; // Số phần tử hiển thị ban đầu
 
-let flag = 0;
+let flag = false;
 
 function renderItems(startIndex, endIndex) {
     for (let i = startIndex; i < endIndex; i++) {
@@ -35,7 +35,12 @@ function toggleVisibility() {
             }
             addCssToList();
         }, 200);
-        flag++
+        const pillarContent = document.getElementById('pillar__dot');
+        pillarContent.innerHTML = '';
+        pillarContent.innerHTML = '<div class="dot__homepage">Home Page</div>'
+        flag = true;
+    } else {
+        window.location.href = '/index.html'
     }
 }
 
