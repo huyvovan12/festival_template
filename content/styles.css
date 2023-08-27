@@ -23,6 +23,7 @@ body {
     gap: 6px;
     background: black;
     width: 98%;
+    padding: 20px;
 }
 
 #content {
